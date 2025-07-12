@@ -2,3 +2,7 @@
 *.csv
 *.ipynb_checkpoints/
 __pycache__/
+# Ignore large files
+data/raw/
+data/processed/
+model/funded_amount_regression.pkl
