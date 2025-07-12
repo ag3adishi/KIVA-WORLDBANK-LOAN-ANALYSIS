@@ -1,0 +1,27 @@
+📊 XGBoost Model Evaluation
+=======================================
+
+In this section, we evaluate the performance of the XGBoost model using a confusion matrix and classification report. These metrics provide insights into how accurately the model classifies loan funding outcomes.
+
+🔹 Classification Report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      9671
+           1       1.00      1.00      1.00    124570
+
+    accuracy                           1.00    134241
+   macro avg       1.00      1.00      1.00    134241
+weighted avg       1.00      1.00      1.00    134241
+
+🧮 Confusion Matrix:
+[[  9671      0]
+ [     0 124570]]
+
+🧠 Insights:
+- ✅ Perfect classification of both classes with zero misclassifications.
+- ✅ Perfect precision and recall — no false positives or false negatives.
+- 📈 Accuracy of 1.0 demonstrates an ideal model fit — though further validation (e.g., on new or unseen data) is recommended to rule out overfitting.
+- 💡 This may be the top-performing model so far, tied with Random Forest.
+
+XGBoost proves to be a powerful model for Kiva loan funding prediction, and should be considered a final candidate.

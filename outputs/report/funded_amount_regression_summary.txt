@@ -1,0 +1,18 @@
+
+📈 Regression Summary: Predicting Funded Amount using Random Forest
+
+This section evaluates the performance of a Random Forest Regressor trained to predict the actual funded amount for loans on Kiva.
+
+📊 Evaluation Metrics:
+- Mean Absolute Error (MAE): 1.01
+- Mean Squared Error (MSE): 878.67
+- R² Score: 0.9993
+
+🖼️ Visualization:
+The scatter plot of Actual vs. Predicted Funded Amount shows a tight linear alignment:
+- Most points lie close to the diagonal, indicating high prediction accuracy.
+- No significant outliers, which suggests minimal overfitting or bias.
+- The model is able to generalize well to unseen data.
+
+✅ Conclusion:
+The regression model performs with exceptional accuracy and can be considered a reliable estimator for predicting loan funding amounts on Kiva. This regression approach can complement the classification task by adding more granular insights into expected funding.

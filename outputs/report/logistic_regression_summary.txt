@@ -1,0 +1,23 @@
+📊 Logistic Regression Model Evaluation
+=======================================
+
+In this section, we evaluate the performance of the Logistic Regression model using a confusion matrix and classification report. These metrics help us understand how well the model is performing in terms of precision, recall, and overall accuracy.
+
+🔹 Classification Report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99      9671
+           1       1.00      1.00      1.00    124570
+
+    accuracy                           1.00    134241
+   macro avg       1.00      0.99      1.00    134241
+weighted avg       1.00      1.00      1.00    134241
+
+🧠 Insights:
+- ✅ High Precision & Recall for both classes (especially class 1 – Funded).
+- ✅ Perfect Recall for class 1, meaning no funded loan was missed.
+- ⚠️ Slight imbalance noticed: majority of data belongs to class 1.
+- 📈 Overall Accuracy is extremely high: 0.9992
+
+This indicates that Logistic Regression is a strong baseline model for predicting Kiva loan funding outcomes.

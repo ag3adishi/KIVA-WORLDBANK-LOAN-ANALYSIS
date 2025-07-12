@@ -1,0 +1,19 @@
+🔍 Logistic Regression Evaluation
+========================================
+
+🔹 Accuracy: 0.999210375369671
+
+📊 Classification Report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99      9671
+           1       1.00      1.00      1.00    124570
+
+    accuracy                           1.00    134241
+   macro avg       1.00      0.99      1.00    134241
+weighted avg       1.00      1.00      1.00    134241
+
+🧮 Confusion Matrix:
+[[  9565    106]
+ [     0 124570]]

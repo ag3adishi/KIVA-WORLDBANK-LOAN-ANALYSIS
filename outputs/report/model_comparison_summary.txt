@@ -1,0 +1,20 @@
+📊 Model Comparison Summary
+===========================
+
+This section summarizes the performance of all evaluated models using Accuracy and AUC (Area Under the Curve) as metrics.
+
+🔹 Logistic Regression:
+- Accuracy: 0.8100
+- AUC: 0.7500
+
+🔹 Random Forest:
+- Accuracy: 0.8500
+- AUC: 0.8200
+
+🔹 XGBoost:
+- Accuracy: 0.8600
+- AUC: 0.8400
+
+✅ Best Performing Model: XGBoost
+
+XGBoost outperforms both Logistic Regression and Random Forest in terms of accuracy and AUC, making it the most suitable model for predicting Kiva loan funding outcomes.

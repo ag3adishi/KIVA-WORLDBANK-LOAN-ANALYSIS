@@ -1,0 +1,28 @@
+📊 Logistic Regression (with SMOTE & Imputation) Evaluation
+============================================================
+
+In this section, we evaluate the performance of the Logistic Regression model trained with SMOTE for class balancing and missing value imputation.
+
+🔹 Classification Report:
+
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      1.00      9671
+           1       1.00      1.00      1.00    124570
+
+    accuracy                           1.00    134241
+   macro avg       1.00      1.00      1.00    134241
+weighted avg       1.00      1.00      1.00    134241
+
+🔍 Test Set Accuracy: 0.9995604919510432
+
+🔁 Cross-Validation Performance:
+- Accuracy: 0.9989 ± 0.0001
+- AUC: 0.9997 ± 0.0001
+
+🧠 Insights:
+- ✅ SMOTE has successfully balanced the minority class and improved recall.
+- ✅ Extremely high test and cross-validated accuracy.
+- ⚖️ The very small standard deviation shows stable, reliable performance.
+- 🔄 Imputation ensured no data loss due to missing values.
+- 📌 Confirms this model is a strong and trustworthy candidate.
