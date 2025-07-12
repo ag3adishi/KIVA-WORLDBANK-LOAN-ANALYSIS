@@ -113,10 +113,16 @@ All models are saved in `model/` as `.pkl` files and can be loaded using `joblib
 ---
 
 ## 🙌 Credits
+🔗 Data Access
+Note: Due to GitHub's file size restrictions, data files are not included in this repository.
 
-This project was built using public data from:
+You can download the original datasets from:
+
+
 - [Kiva.org](https://www.kiva.org)
 - [World Bank Open Data](https://data.worldbank.org)
+
+- Processed datasets and merged CSVs are available upon request.
 
 ---
 
