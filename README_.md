@@ -114,7 +114,20 @@ All models are saved in `model/` as `.pkl` files and can be loaded using `joblib
 
 ## 🙌 Credits
 🔗 Data Access
-Note: Due to GitHub's file size restrictions, data files are not included in this repository.
+
+Due to GitHub's file size restrictions, some data files and notebook outputs are hosted externally.
+
+📂 Access full notebooks, datasets, and output files here:
+Click to open Google Drive folder
+https://drive.google.com/drive/folders/1_nogTPbjvMDrTSMz5lQoLVP79xdHO7Cu?usp=drive_link
+
+> Includes:
+
+-Full Jupyter notebooks
+
+-Large datasets  ( merged data set )
+
+-outputs
 
 You can download the original datasets from:
 
@@ -122,7 +135,7 @@ You can download the original datasets from:
 - [Kiva.org](https://www.kiva.org)
 - [World Bank Open Data](https://data.worldbank.org)
 
-- Processed datasets and merged CSVs are available upon request.
+
 
 ---
 
@@ -130,4 +143,5 @@ You can download the original datasets from:
 
 **ADISHI AGRAWAL**  
 Feel free to connect via GitHub or LinkedIn.
+for linkedin:
 🔗http://surl.li/wsdcwj
